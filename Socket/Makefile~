@@ -1,0 +1,8 @@
+cc=gcc
+source=main.c
+
+socket_server: $(source)
+	gcc -o socket_server main.c
+
+clean:
+	rm -f $(objects) 

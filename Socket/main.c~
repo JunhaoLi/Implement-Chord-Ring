@@ -1,0 +1,8 @@
+#include "socket_server.c"
+
+int main (int argc, const char** argv) {
+
+  int  portno = 8001;
+  //socket_server(8001);
+  return EXIT_SUCCESS;
+}
